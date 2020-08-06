@@ -11,7 +11,7 @@
     <Description>Some description goes here...</Description>
     <Authors>Gaardsholt</Authors>
     <PackageDescription>Some much longer description goes here...</PackageDescription>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/Gaardsholt/ApiKeyAuthMiddleware</RepositoryUrl>
     <PackageTags>api key auth middleware</PackageTags>
@@ -20,7 +20,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.6" />
-    <None Include="LICENSE" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+    <None Include="LICENSE.md" Pack="true" PackagePath="$(PackageLicenseFile)"/>
     <None Include="icon.png" Pack="true" PackagePath="$(PackageIcon)"/>
   </ItemGroup>
 
