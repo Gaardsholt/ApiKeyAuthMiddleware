@@ -2,13 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <!-- <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Gaardsholt.ApiKeyAuthMiddleware</PackageId> -->
+    <IsPackable>true</IsPackable>
+    <PackageVersion></PackageVersion>
     <PackageId>Gaardsholt.ApiKeyAuthMiddleware</PackageId>
+    <Title>Gaardsholt.ApiKeyAuthMiddleware</Title>
+    <Description>Some description goes here...</Description>
+    <Authors>Gaardsholt</Authors>
+    <PackageDescription>Some much longer description goes here...</PackageDescription>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Gaardsholt/ApiKeyAuthMiddleware</RepositoryUrl>
+    <PackageTags>api key auth middleware</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.6" />
+    <None Include="LICENSE" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+    <None Include="icon.png" Pack="true" PackagePath="$(PackageIcon)"/>
   </ItemGroup>
 
 </Project>
