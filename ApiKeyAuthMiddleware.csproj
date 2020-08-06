@@ -15,6 +15,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/Gaardsholt/ApiKeyAuthMiddleware</RepositoryUrl>
     <PackageTags>api key auth middleware</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
